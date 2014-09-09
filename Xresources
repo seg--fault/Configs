@@ -1,0 +1,52 @@
+! XTerm Settings
+XTerm*faceName: Liberation Mono
+XTerm*termName: xterm
+xterm*faceSize: 12
+xterm*vt100*geometry: 80x60
+xterm*saveLines: 16384
+xterm*loginShell: true
+xterm*charClass: 33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48
+xterm*termName: xterm
+xterm*eightBitInput: false
+
+! URxvt Settings
+URxvt*font:			xft:Liberation Mono:size=12
+URxvt.scrollBar:	false
+! URxvt.transparent: 	true
+URxvt.depth: 32
+URxvt.background: rgba:1111/1111/1111/bbcc
+
+! Set Colors
+*background:            #000000
+*foreground:            #FFFFFF
+*fading:                40
+*fadeColor:             #000000
+*cursorColor:           #33FF33
+*pointerColorBackground:#99FF33
+*pointerColorForeground:#000000
+
+! FIXME: Set good colors
+! blacks: Black / Dark grey
+*color0:                #000000
+*color8:                #3D3D3D
+! reds: Strong red / Light brilliant red
+*color1:                #B80000
+*color9:                #FF0000
+! greens: Light brilliant green / Light brilliant chartreuse green
+*color2:                #33FF33
+*color10:               #00FF19
+! yellows: Light brilliant orange / Light brilliant yellow
+*color3:                #FF9933
+*color11:               #FFFF33
+! blues: Light brilliant blue / Light brilliant azure
+*color4:                #0000FF
+*color12:               #1010FF
+! magentas: Light brilliant magenta / Light brilliant violet
+*color5:                #FF33FF
+*color13:               #9933FF
+! cyans: Light brilliant cyan / Very light cyan
+*color6:                #33FFFF
+*color14:               #99FFFF
+! whites: Cosmic latte / White
+*color7:                #FFF8E7
+*color15:               #FFFFFF
